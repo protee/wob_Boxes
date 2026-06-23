@@ -8,7 +8,7 @@
     <strong style="font-size: 1em;">Tagline:</strong> Files close to data.
   </div>
   <div>
-    <img src="https://www.protee.org/images/wob_Boxes/wob_Boxes.png" alt="wob_Boxes Logo" width="60" style="border-radius: 12px;">
+    <img src="https://www.protee.org/images/wob_Boxes/wob_Boxes.png" alt="wob_Boxes Logo" width="120" style="border-radius: 12px;">
   </div>
 </div>
 
@@ -49,7 +49,7 @@ wob_Boxes provides a managed, Dropbox-like repository for files, without storing
 - [**wok_Krolific**](https://github.com/protee/wok_Krolific) – Licensing component (mandatory dependency).
 - [**wox_Xlibrary**](https://github.com/protee/wox_Xlibrary) – Core utilities (mandatory dependency).
 - [**woc_Colours**](https://github.com/protee/woc_Colours) – Color management engine (mandatory dependency).
-- The [**4D SVG component**](https://github.com/4d/4D-SVG) must be available in your project.
+- The [**SVG with Classes**](https://github.com/vdelachaux/SVG-with-Classes) must be available in your project.
 
 ### Installation via Dependencies Manager (GitHub)
 
@@ -66,24 +66,15 @@ Starting with 4D v21, the recommended way to install wob_Boxes (and any ogTools 
 
 ---
 
-## Part of the ogTools Suite
+## ogTools Suite – Dependencies
 
 wob_Boxes is the file repository pillar of the comprehensive **ogTools suite** – an integrated development ecosystem for 4D. Other key components include:
 
-| Component | Description |
-|-----------|-------------|
-| **wok_Krolific** | Centralized licensing system. |
-| **wox_Xlibrary** | Core utilities for everyday development tasks. |
-| **zen_Nucleus** | The complete ORDA framework binding your database to a sophisticated UI. |
-| **woc_Colours** | Advanced, indexed color management engine. |
-| **waz_Wazar** | Intelligent UI widgets for modern interfaces. |
-| **wor_Recursive** | Manage hierarchical data with ease. |
-| **wod_DevTools** | Instant documentation generation. |
-| **wom_Make** | Build and automation toolkit. |
-
-> Together, these components form a powerful framework that allows developers to focus on unique business logic rather than reinventing the wheel.
-
----
+| Icon | Component | Description |
+|------|-----------|-------------|
+| <img src="https://www.protee.org/images/wok_Krolific/wok_Krolific.png" alt="wok_Krolific Logo" width="60" style="border-radius: 12px;"> | **wok_Krolific** | License manager. |
+| <img src="https://www.protee.org/images/wox_Xlibrary/wox_Xlibrary.png" alt="wox_Xlibrary Logo" width="60" style="border-radius: 12px;"> | **wox_Xlibrary** | Core utilities for everyday development tasks. |
+| <img src="https://www.protee.org/images/woc_Colours/woc_Colours.png" alt="woc_Colours Logo" width="60" style="border-radius: 12px;"> | **woc_Colours** | Advanced, indexed color management engine. |
 
 ## License
 
@@ -95,10 +86,8 @@ wob_Boxes is a **commercial component** and is part of the paid ogTools suite. A
 
 wob_Boxes supports the following languages out‑of‑the‑box:
 
-- 🇺🇸 English (EN)
-- 🇫🇷 French (FR)
-- 🇪🇸 Spanish (ES)
-- 🇩🇪 German (DE)
+- 🇺🇸 English (EN), 🇫🇷 French (FR), 🇪🇸 Spanish (ES), 🇩🇪 German (DE)
+- More on demand
 
 Localization affects error messages, UI prompts, and built‑in pane texts.
 
@@ -107,7 +96,6 @@ Localization affects error messages, UI prompts, and built‑in pane texts.
 ## Support & Resources
 
 - **Official Website**: [https://www.protee.org](https://www.protee.org)
-- **4D Forum**: [Discuss ogTools suite](https://discuss.4d.com) – A vibrant community for questions and best practices.
 - **Documentation**: Full documentation and HDI (Host Database Interface) demos are included with your purchase.
 
 For direct inquiries:
@@ -118,7 +106,7 @@ For direct inquiries:
 
 ## About the Creator
 
-wob_Boxes and the ogTools suite are developed by **Protée sarl**, a company with over 30 years of expertise in 4D development. Led by Olivier Grimbert, the team focuses on delivering high‑quality, production‑grade tools that enhance developer productivity and application reliability.
+wob_Boxes and the ogToolsSuite are developed by **Protée sarl**, a company with over 30 years of expertise in 4D development. Led by Olivier Grimbert, the team focuses on delivering high‑quality, production‑grade tools that enhance developer productivity and application reliability.
 
 ---
 
