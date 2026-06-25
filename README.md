@@ -25,21 +25,21 @@
 
 ## Overview
 
-wob_Boxes provides a managed, Dropbox-like repository for files, without storing them in the database as BLOBs. It offers a structured hierarchy for file storage at the global, table, and individual record levels, keeping your database lean and efficient while providing a familiar file management interface for users.[reference:0][reference:1]
+wob_Boxes provides a managed, Dropbox-like repository for files, without storing them in the database as BLOBs. It offers a structured hierarchy for file storage at the global, table, and individual record levels, keeping your database lean and efficient while providing a familiar file management interface for users.
 
 ## Key Features
 
-- **Structured File Repository**: A root folder on the server is designated for all file storage. `wob_Boxes` then creates a structured hierarchy for global files, table-specific files, and individual record-specific files.[reference:2]
-- **Client-Server Interface**: Generic widgets are provided for easy placement on any form. These widgets open a Finder-like interface, allowing users to drag & drop files, view, organize, and recover files stored in their dedicated boxes.[reference:3]
-- **Programmatic Access**: Low-level methods enable server-side automation. You can programmatically retrieve files (`Get file from Box`), save files (`Save file to Box`), and use them for automated tasks like attaching files to outgoing emails.[reference:4]
-- **Technical Foundation**: The entire system is built on robust, standard POSIX paths and utilizes 4D's built-in `File` and `Folder` classes for reliable cross-platform operation.[reference:5]
-- **Widget Integration**: The resizable widget displays the file count of the related folder. On click, it opens a form in a separate process, providing a bounded view of this folder. The widget's file count is automatically updated when the contents of the opened `ogBox` are modified.[reference:6]
+- **Structured File Repository**: A root folder on the server is designated for all file storage. `wob_Boxes` then creates a structured hierarchy for global files, table-specific files, and individual record-specific files.
+- **Client-Server Interface**: Generic widgets are provided for easy placement on any form. These widgets open a Finder-like interface, allowing users to drag & drop files, view, organize, and recover files stored in their dedicated boxes.
+- **Programmatic Access**: Low-level methods enable server-side automation. You can programmatically retrieve files (`Get file from Box`), save files (`Save file to Box`), and use them for automated tasks like attaching files to outgoing emails.
+- **Technical Foundation**: The entire system is built on robust, standard POSIX paths and utilizes 4D's built-in `File` and `Folder` classes for reliable cross-platform operation.
+- **Widget Integration**: The resizable widget displays the file count of the related folder. On click, it opens a form in a separate process, providing a bounded view of this folder. The widget's file count is automatically updated when the contents of the opened `ogBox` are modified.
 - **Key Benefits**:
-  - **Database Efficiency**: Keeps user files out of the database, maintaining optimal performance and size.[reference:7]
-  - **Ease of Use**: Provides a familiar, intuitive file browser experience anywhere in your application.[reference:8]
-  - **Flexibility**: Offers structured storage at the global, table, and individual record levels.[reference:9]
-  - **Powerful Automation**: Supports both user interaction and fully programmed file management.[reference:10]
-- **Multi-Language Support**: Fully localized in **English (EN)**, **French (FR)**, **Spanish (ES)**, and **German (DE)**.[reference:11]
+  - **Database Efficiency**: Keeps user files out of the database, maintaining optimal performance and size.
+  - **Ease of Use**: Provides a familiar, intuitive file browser experience anywhere in your application.
+  - **Flexibility**: Offers structured storage at the global, table, and individual record levels.
+  - **Powerful Automation**: Supports both user interaction and fully programmed file management.
+- **Multi-Language Support**: Fully localized in **English (EN)**, **French (FR)**, **Spanish (ES)**, and **German (DE)**.
 
 ---
 
